@@ -1,0 +1,17 @@
+name: GoodRewards
+version: '${version}'
+main: org.opencommunity.goodrewards.Main
+api-version: 1.19
+authors: [ Envel ]
+depend: [VotifierPlus]
+
+commands:
+  reloadrewards:
+    description: Reload rewards configuration
+    usage: /reloadrewards
+    permission: goodrewards.reloadrewards
+
+permissions:
+  goodrewards.reloadrewards:
+    description: Allows reloading rewards configuration
+    default: op

@@ -1,0 +1,13 @@
+# Configuration for GoodRewards
+
+# List of rewards to give to players when they vote.
+# Each reward should be in the format "type value", e.g., "command say Thank you, %player%!"
+rewards:
+  - command eco give %player% 1
+  - item cookie 5
+
+# Thank you message to send to players when they receive rewards
+thank_message: "&aThank you for voting!"
+
+# Maximum number of votes a player can receive
+max_votes: 10
