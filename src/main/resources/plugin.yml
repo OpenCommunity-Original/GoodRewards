@@ -1,7 +1,7 @@
 name: GoodRewards
 version: '${version}'
 main: org.opencommunity.goodrewards.Main
-api-version: 1.19
+api-version: 1.20
 authors: [ Envel ]
 depend: [VotifierPlus]
 
